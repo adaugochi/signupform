@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap quiz3</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<!-- font awesome -->
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<style type="text/css">
+		#picture {
+			width: 35%;
+			height: 30%;
+		}
+
+		.btn {
+			border-radius: 50%;
+		}
+
+		#section2 {
+			background-color: #dcdcdc;
+		}
+
+		#icon i {
+			font-size: 50px;
+			color: black;
+		}
+
+		#icon, #task {
+			margin-bottom: 20px;
+		}
+
+		#fork, #html, #css {
+			padding: 40px;
+			background-color: #dcdcdc;
+			border-radius: 50%;
+			border: none;
+		}
+
+		footer {
+			background-color: dimgrey;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="my-5">
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					<div class="text-center">
+						<img src="images/adaa.jpg" class="rounded-circle" id="picture">
+					</div>
+					<p class="text-center lead mx-auto">Hi, my name is Maryfaith Mgbede</p>
+					<p class="text-center">I graduated from the university of Benin where i obtained a bachelor degree in biochemistry. I am a STEM facilitator, and i have volunteered for WAAW foundation and CodeSpark as a facilitator. I am a tech lover and passionate about creating a niche for myself in the tech space.</p>
+					<p class="text-center">
+						<button class=" btn btn-outline-dark ml-3"><i class="fab fa-twitter"></i></button>
+						<button class=" btn btn-outline-dark ml-3"><i class="fab fa-facebook-f"></i></button>
+						<button class=" btn btn-outline-dark ml-3"><i class="fab fa-github"></i></button>
+						<button class=" btn btn-outline-dark ml-3"><i class="fab fa-linkedin-in"></i></button>
+					</p>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
+		</div>
+
+		<div class="py-5" id="section2">
+			<div class="row">
+				<div class="col-sm-6 mx-auto">
+					<h3 class="text-center">A little about me</h3>
+					<p class="text-center text-justify">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="py-5">
+			<div class="container">
+				<h2 class="text-center">What I've Learnt at Dufuna-FEM</h2>
+				<div class="row">
+					<div class="col-sm-4">
+						<div id="icon" class="text-center">
+							<button id="fork" ><i class="fas fa-code-branch"></i></button>
+						</div>
+						<h3 class="text-center lead font-weight-bold">Git & Version Control System</h3>
+						<p class="text-center text-justify">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+						</p>
+					</div>
+					<div class="col-sm-4">
+						<div id="icon" class="text-center">
+							<button id="html" ><i class="fab fa-html5"></i></button>
+						</div>
+						<h3 class="text-center lead font-weight-bold">HTML5</h3>
+						<p class="text-center text-justify">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+						</p>
+					</div>
+					<div class="col-sm-4">
+						<div id="icon"  class="text-center">
+							<button id="css" ><i class="fab fa-css3"></i></button>
+						</div>
+						<h3 class="text-center lead font-weight-bold">CSS3</h3>
+						<p class="text-center text-justify">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="section2" class="py-5">
+			<div class="container">
+				<h2 class="text-center" id="task">My GitHub Tasks</h2>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="card">
+						    <div class="card-body">
+							    <h4 class="card-title">Version Control & IDE Setup</h4>
+							    <p class="card-text">I learnt about how to initialize git in my local repository, add, commit and push my files to my remote repository. Also, i learnt how to create a new branch and merge to my master branch. Moreso, i learnt about setting up IDE (VS code)...</p>
+							    <a href="https://github.com/Dufuna-Fem/Dufuna18/tree/master/submissions/maryfaithmgbede/versionControl" class="card-link">View project</a>
+						    </div>
+  						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card">
+						    <div class="card-body">
+							    <h4 class="card-title">Introduction to HTML & CSS</h4>
+							    <p class="card-text">Here, i learnt how to bulld a static webpage using HTML and CSS. The use of HTML tags like section, head etc. and CSS styles. the external , internal and inline styling...click on the link below to see my project on github</p>
+							    <a href="https://github.com/adaugochi/project" class="card-link">View project</a>
+						    </div>
+  						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card">
+						    <div class="card-body">
+							    <h4 class="card-title">Introduction to PHP & MySQL</h4>
+							    <p class="card-text">PHP is a server-side scripting language. I learnt about how array, functions, conditional, operators, iterators are use. MySQL is a database where information about a user is stored and can easily be retrived when needed. SQL is a query language. </p>
+							    <a href="https://github.com/adaugochi/dufunaProjects" class="card-link">View project</a>
+						    </div>
+  						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card">
+						    <div class="card-body">
+							    <h4 class="card-title">Introduction to Javascript</h4>
+							    <p class="card-text">Javascript is a client-side scripting language that is use to make the webpage dynamic. i learnt how to manipulate the DOM using javascript, use functions, arrays, loops etc. i learnt jquery which is a javascript framework.</p>
+							    <a href="https://github.com/adaugochi/dufunaProjects" class="card-link">View project</a>
+						    </div>
+  						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<footer class="py-3">
+			<p class="text-center"> All Right Reserved. &copy 2018 Dufuna-FEM</p>
+		</footer>
+	</div>
+</body>
+</html>
